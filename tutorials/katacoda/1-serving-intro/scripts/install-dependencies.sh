@@ -1,4 +1,4 @@
-launch.sh
+#launch.sh
 
 kubectl apply -f https://github.com/knative/serving/releases/download/v0.22.3/serving-crds.yaml &> /dev/null
 kubectl apply -f https://github.com/knative/serving/releases/download/v0.22.3/serving-core.yaml &> /dev/null
